@@ -1,0 +1,30 @@
+{
+    "name":         "cdi/cditools",
+    "description":  "Modulo con herramientas de multiples propositos",
+    "type":         "library",
+    "license":      "BSD-3-Clause",
+    "homepage":     "https://github.com/cincarnato",
+    "keywords": [
+        "ga"
+    ],
+    "authors": [
+        {
+            "name":      "Cristian Incarnato",
+            "email":     "cincarnato@gmail.com",
+            "homepage":  "http://cincarnato.com.ar/",
+            "role":      "Desarrollador"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "CdiTools\\": "src/"
+        },
+         "classmap": [
+            "./Module.php"
+            ]
+    }
+}
