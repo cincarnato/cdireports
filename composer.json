@@ -1,6 +1,6 @@
 {
-    "name":         "cdi/cditools",
-    "description":  "Modulo con herramientas de multiples propositos",
+    "name":         "cdi/cdireport",
+    "description":  "Modulo para preparar reportes, metricas y estadisticas",
     "type":         "library",
     "license":      "BSD-3-Clause",
     "homepage":     "https://github.com/cincarnato",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-0": {
-            "CdiTools\\": "src/"
+            "CdiReport\\": "src/"
         },
          "classmap": [
             "./Module.php"
